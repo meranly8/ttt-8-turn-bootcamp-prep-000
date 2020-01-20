@@ -23,7 +23,7 @@ def input_index(user_input)
   new_input_index -= 1 
 end
 
-def move(board, index, token = "X")
-  board(index) = token
+def move(board, index, character = "X")
+  board(index) = character
   return board
 end
