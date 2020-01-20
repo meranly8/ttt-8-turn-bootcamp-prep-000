@@ -18,3 +18,12 @@ def position_taken(board, index)
   end
 end
 
+def input_index(user_input)
+  new_input_index = user_input.to_i 
+  new_input_index -= 1 
+end
+
+def move(board, index, token = "X")
+  board(index) = character
+  return board
+end
